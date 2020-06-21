@@ -1,15 +1,16 @@
 package ClassiSfida;
 
+import prog.utili.Data;
 import prog.utili.Orario;
 
 public class SfidaPacifica extends Sfida {
 	
-	public SfidaPacifica(String videogame, String descrizione, String giocatore1, String giocatore2, Orario orario, Validit‡ validit‡) throws OrarioNonValidoException {
-		super(videogame, descrizione, giocatore1, giocatore2, orario, validit‡, TipoSfida.PACIFICA);
+	public SfidaPacifica(String videogame, String descrizione, String giocatore1, String giocatore2, Data data, Orario orario, Validit‡ validit‡) throws OrarioNonValidoException, DataNonValidaException {
+		super(videogame, descrizione, giocatore1, giocatore2, data, orario, validit‡, TipoSfida.PACIFICA);
 	}
 	
-	public SfidaPacifica(int ID, String videogame, String descrizione, String giocatore1, String giocatore2, Orario orario, Validit‡ validit‡) throws IDGi‡UsatoException, OrarioNonValidoException {
-		super(ID, videogame, descrizione, giocatore1, giocatore2, orario, validit‡, TipoSfida.PACIFICA);
+	public SfidaPacifica(int ID, String videogame, String descrizione, String giocatore1, String giocatore2, Data data, Orario orario, Validit‡ validit‡) throws IDGi‡UsatoException, OrarioNonValidoException, DataNonValidaException {
+		super(ID, videogame, descrizione, giocatore1, giocatore2, data, orario, validit‡, TipoSfida.PACIFICA);
 	}
 
 	@Override
@@ -18,12 +19,6 @@ public class SfidaPacifica extends Sfida {
 			return 100;
 		else
 			return 10;
-	}
-
-	@Override
-	public int compareTo(Sfida o) {
-		// TODO Auto-generated method stub
-		return 0;
 	}
 
 }

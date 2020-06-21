@@ -1,0 +1,5 @@
+P;WoW;Arena 1v1;Rexal;Souldead;20.08.2020;08:00;amichevole
+P;WoW;Arena 1v1;Rexal;Souldead;oggi;08:00;amichevole
+N;WoW;Arena 1v1;Rexal;Souldead;25.09.2020;08:00;amichevole;EsportPalace
+N;WoW;Arena 1v1;Rexal;Souldead;21.08.2020;17:00;amichevole;EsportPalace
+C;WoW;Arena 1v1;Rexal;Souldead;oggi;08:00;amichevole;6

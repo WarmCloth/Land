@@ -230,19 +230,25 @@ public class GestoreSfide {
 		gestore.stampaSfide();
 		System.out.println();
 		System.out.println();
+		System.out.println();
 		gestore.stampaSfidePerPunteggio();
 		System.out.println();
+		System.out.println("Cerco sfide...");
 		System.out.println(gestore.cercaSfida("nosferatu"));
 		System.out.println(gestore.cercaSfida("souldead"));
 		System.out.println();
 		System.out.println();
-		System.out.println();
+		System.out.println("Da file...");
 		
 		
 		GestoreSfide gestore2 = new GestoreSfide();
 		gestore2.sfideDaFile();
 		gestore2.addSfidaCompetitiva(4, "WoW", "Arena 1v1", "Nosferatu", "Souldead", new Data("20.07.2020"), new Orario("09:00"), Validità.CAMPIONATO);
 		gestore2.stampaSfide();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		gestore2.stampaSfidePerPunteggio();
 		
 		
 		

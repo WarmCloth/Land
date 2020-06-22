@@ -6,10 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/marti/Desktop/UNIBG/PROGRAMMAZIONE AD OGGETTI/Java/Librerie/prog-4ed.jar" sourcepath="C:/Users/marti/Desktop/UNIBG/PROGRAMMAZIONE AD OGGETTI/Java/Librerie/prog-doc-4ed.zip">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/C:/Users/marti/Desktop/UNIBG/PROGRAMMAZIONE%20AD%20OGGETTI/Java/Librerie/prog-doc-4ed.zip!/doc"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="prog-4ed.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

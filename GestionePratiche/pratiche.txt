@@ -1,0 +1,12 @@
+CN;oggi;Divorzio;Alberto;Servalli;27;ALTSRL93H60A246Q;si;incorso;
+CV;10.09.2020;Divorzio;Alberto;Servalli;27;ALTSRL93H60A246Q;si;incorso;
+CV;10.09.2020;Divorzio;Alberto;Servalli;27;ALTSRL93H60A246Q;si;incorso;
+CV;10.09.2020;Divorzio;Alberto;Servalli;27;ALTSRL93H60A246Q;si;incorso;
+PN;11.12.2020;Accusa di molestie;Alberto;Servalli;27;ALTSRL93H60A246Q;si;incorso;
+PN;11.11.2020;Accusa di molestie;Alberto;Servalli;27;ALTSRL93H60A246Q;si;incorso;
+PN;16.12.2020;Accusa di molestie;Alberto;Servalli;27;ALTSRL93H60A246Q;si;incorso;
+PN;11.12.2020;Accusa di molestie;Alberto;Servalli;27;ALTSRL93H60A246Q;si;chiusa;
+PN;11.12.2020;Accusa di molestie;Alberto;Servalli;27;ALTSRL93H60A246Q;si;archiviata;
+PN;11.12.2019;Accusa di molestie;Greta;Servalli;27;ALTSRL93H60A246Q;si;incorso;
+CV;11.12.2020;Furto con scasso;Alberto;Servalli;27;ALTSRL93H60A246Q;si;incorso;
+CV;11.08.2020;Furto con scasso;Alberto;Servalli;27;ALTSRL93H60A246Q;si;incorso;

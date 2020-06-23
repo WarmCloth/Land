@@ -50,6 +50,10 @@ public abstract class PraticaLegale implements Comparable<PraticaLegale>{
 		this.orePratica += ore;
 	}
 	
+	public void changeStatoPratica(StatoPratica nuovoStato) {
+		this.stato = nuovoStato;
+	}
+	
 	public int calcolaPriorità() {
 		if(this.stato == StatoPratica.CHIUSA || this.stato == StatoPratica.ARCHIVIATA) {
 			this.priorità = 1000;

@@ -4,20 +4,20 @@ import prog.utili.Data;
 
 public class PraticaPenale extends PraticaLegale{
 	
-	GradoGiudizio gradoGiudizio;
+	public GradoGiudizio gradoGiudizio;
 	
 	public PraticaPenale(Data dataUdienza, String descrizione, Cliente cliente, StatoPratica stato) {
 		super(dataUdienza, descrizione, cliente, stato, TipologiaPratica.PENALE);
 		this.gradoGiudizio = GradoGiudizio.PRIMO_GRADO;
 	}
 	
-	public void aumentaGradoGiudizio() {
-		if(this.gradoGiudizio == GradoGiudizio.PRIMO_GRADO) {
-			this.gradoGiudizio = GradoGiudizio.APPELLO;
-		}else if(this.gradoGiudizio == GradoGiudizio.APPELLO) {
-			this.gradoGiudizio = GradoGiudizio.CASSAZIONE;
-		}else
-			System.err.println("Errore: il grado di giudizio è al massimo");
+	public void incrementaGradoGiudizio() throws GradoNonAumentabileException {
+		this.gradoGiudizio = this.gradoGiudizio.next();
+	}
+	
+	@Override
+	public String toString() {
+		return super.toString() + " - Grado: " + this.gradoGiudizio;
 	}
 	
 	@Override

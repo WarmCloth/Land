@@ -13,5 +13,11 @@ public enum GradoGiudizio {
 	public int getGrado() {
 		return this.grado;
 	}
+	
+	public GradoGiudizio next() throws GradoNonAumentabileException {
+		if(this.getGrado() == 3)
+			throw new GradoNonAumentabileException();
+		return values()[ordinal() + 1];
+	}
 
 }

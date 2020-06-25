@@ -59,7 +59,7 @@ public class Volo {
 		String ID = String.valueOf(IDs);
 		for(String s: this.listaIDvoli) {
 			if(s.equals(df.format(IDs))) {
-				ID = this.generaID();
+				ID = this.generaID(); 
 			}
 		}
 		return df.format(Integer.valueOf(ID));

@@ -54,7 +54,7 @@ public class Volo {
 	}
 
 	private String generaID() {
-		DecimalFormat df = new DecimalFormat("00000");		
+		DecimalFormat df = new DecimalFormat("00000");	 	
 		IDs++;
 		String ID = String.valueOf(IDs);
 		for(String s: this.listaIDvoli) {
